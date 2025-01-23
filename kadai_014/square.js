@@ -1,4 +1,6 @@
-const calculateTotal = (num) =>{
-    console.log(num * num);
+const calculateSquare = (num) =>{
+    const result = num * num;
+    return result;
 }
-calculateTotal(10);
+const squareOfTen = calculateSquare(10);
+console.log(squareOfTen);
