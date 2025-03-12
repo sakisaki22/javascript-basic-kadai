@@ -12,7 +12,6 @@ btn.addEventListener('click', () => {
 
     //作成したli要素に「これはリスト要素です」というテキストを追加する
     childList.textContent = 'ボタンをクリックしました';
-    text.appendChild(childList);
     text.textContent = 'ボタンをクリックしました。';
     console.log('ボタンをクリックしました');
 });
